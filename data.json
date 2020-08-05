@@ -1,162 +1,5 @@
-<!DOCTYPE html>
-<html lang="sk">
-
-<head>
-
-    <title>Pizza Viktoria</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!--Lightbox Galeria-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
-
-
-
-</head>
-
-<body>
-
-    <header class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <span class="navbar-brand">PO-NE 11:00 - 22:00 </br>Príjem objednávok do 21:30</span>
-            <span class="navbar-text">0948 166 900</br> 0917 788 571</span>
-        </div>
-    </header>
-    <div class="container-lg bg-light">
-        <div class="row justify-content-center">
-            <img src="img/Logo.webp" class="rounded mx-auto d-block" alt="...">
-        </div>
-        <nav>
-            <div class="row justify-content-center">
-                <ul class="nav justify-content-center nav-pills">
-                    <li class="nav-item">
-                        <a class="nav-link active rounded-left" href="#">Pizza</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link rounded-0" href="#">Pizza štangle a dressingy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link rounded-0" href="#">Polievka</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link rounded-0" href="#">Šaláty</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link rounded-right" href="#">Nápoje</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="row justify-content-center pt-4">
-            <div class="text-center">
-                <p class="h6">
-                    ROZVOZ ZDARMA: Dlhé Diely, Karlova Ves, Dúbravka, Devín </br> Osobný odber: Kresánkova 7/A, Dlhé
-                    Diely
-                </p>
-                <p class="h6">PLATBA : Hotovosť, stravný lístok, platobná karta u kuriéra </br>PRI OBJEDNÁVKE NAD 20€ OD
-                    NÁS DOSTANETE DARČEK</p>
-            </div>
-        </div>
-        <div class="row justify-content-center pt-5">
-            <h1 class="text-center text-dark text-uppercase">Pizza</h1>
-        </div>
-        <div class="row justify-content-center">
-            <p>( všetky pizze sú potreté cesnakom, priemer cca 32cm, hmotnosť od 450g )</p>
-        </div>
-        <menu>
-            <div id="grid1" class="d-flex flex-column flex-wrap">
-                <!--parsovane data pizza-->
-                
-            </div>
-        </menu>
-        <article class="row justify-content-center">
-            <p>Zoznam alergénov : 1 - obilniny, 3 - vajcia, 4 - ryby, 7 - mlieko a mliečne výrobky</p>
-        </article>
-        <footer>
-            <div class="row bg-dark text-white">
-                <div class="col-sm">
-                    <address>
-                        PREVÁDZKA:<br>
-                        Kresánkova 7A, 841 05 Bratislava<br>
-                        Zodp. vedúci: Ing. Daniel Dudáš<br>
-                        Tel.: 0948 166 900<br><br>
-                    </address>
-                    MOŽNOSTI PLATBY:<br>
-                    Hotovosť, stravný lístok,<br>
-                    platobná karta u kuriéra<br>
-                </div>
-                <div class="col-sm">
-                    <address>
-                        DAMACOM s. r. o.<br>
-                        Košická 49, 821 08 Bratislava
-                    </address>
-                    <div>Pizza rozvoz zdarma | Pizzeria Viktória | Dlhé Diely - Karlova Ves - Dúbravka - Devín</div>
-                </div>
-                <div class="col-sm">
-                    <a href="https://unsplash.it/1200/768.jpg?image=263" data-toggle="lightbox"
-                        data-gallery="hidden-images" class="col-4">
-                        <img src="https://unsplash.it/600.jpg?image=263" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=264" data-toggle="lightbox"
-                        data-gallery="hidden-images" class="col-4">
-                        <img src="https://unsplash.it/600.jpg?image=264" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=265" data-toggle="lightbox"
-                        data-gallery="hidden-images" class="col-4">
-                        <img src="https://unsplash.it/600.jpg?image=265" class="img-fluid">
-                    </a>
-                    <!-- elements not showing, use data-remote -->
-                    <div data-toggle="lightbox" data-gallery="hidden-images"
-                        data-remote="https://unsplash.it/1200/768.jpg?image=264" data-title="Hidden item 1"></div>
-                    <div data-toggle="lightbox" data-gallery="hidden-images"
-                        data-remote="https://www.youtube.com/embed/b0jqPvpn3sY" data-title="Hidden item 2"></div>
-                    <div data-toggle="lightbox" data-gallery="hidden-images"
-                        data-remote="https://unsplash.it/1200/768.jpg?image=265" data-title="Hidden item 3"></div>
-                    <div data-toggle="lightbox" data-gallery="hidden-images"
-                        data-remote="https://unsplash.it/1200/768.jpg?image=266" data-title="Hidden item 4"></div>
-                    <div data-toggle="lightbox" data-gallery="hidden-images"
-                        data-remote="https://unsplash.it/1200/768.jpg?image=267" data-title="Hidden item 5"></div>
-
-                </div>
-
-            </div>
-        </footer>
-    </div>
-
-    <!-- Optional JavaScript -->
-
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.1/anchor.min.js"></script>
-    <!--Isotope -->
-    <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-    <script src="https://npmcdn.com/isotope-fit-columns@1/fit-columns.js"></script>
-
-    <script type="text/javascript">
-        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });        
-    </script>
-
-    <script>
-        const menuData = [
+{
+"pizza": [
     {
         "kategoria": "Pizza",
         "title": "MARGHERITA",
@@ -372,7 +215,9 @@
         "poradie": 24,
         "cena": "7.7",
         "euro": "7,70 €"
-    },
+    }
+],
+"priloha": [
     {
         "kategoria": "prilohy",
         "title": "ananás 60g",
@@ -651,91 +496,261 @@
         "poradie": 55,
         "cena": "",
         "euro": ""
-    }];
-
-        function menuTemplate1(menuitem) {
-            console.log(menuitem);
-            let menutype = menuitem.kategoria;
-            console.log(menutype);
-            if (menutype == 'Pizza') {
-                return `
-                    <div class="grid-item" data-order="${menuitem.poradie}">
-                            <div class="product-menu text-body">
-                                <div class="product-menu-top">
-                                    <div class="product-menu-title">
-                                        <h3 class="text-uppercase">${menuitem.poradie}&nbsp;${menuitem.title}</h3>
-                                    </div>
-                                    <div class="product-menu-price">
-                                        <h3>${menuitem.euro}</h3>
-                                    </div>
-                                </div>
-                                <p class="product-menu-ingredience">${menuitem.popis}</p>
-                                <div class="hr-triangle">
-                                    <div class="hr-top"></div>
-                                    <div class="hr-custom"></div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                `
-            } else {
-                return ''
-            }
-        }
-
-        function menuTemplate2(menuitem) {
-            let menutype = menuitem.kategoria;
-            if (menutype == 'prilohy') {
-                return `
-                    <div class="second-grid-item" data-order="${menuitem.poradie}">
-                            <div class="product-menu text-body">
-                                <div class="product-menu-top">
-                                    <div class="product-menu-title">
-                                        <h3 class="text-lowercase">${menuitem.title}</h3>
-                                    </div>
-                                    <div class="product-menu-price">
-                                        <p>${menuitem.euro}</p>
-                                    </div>
-                                </div>
-                                <div class="hr-dot">
-                                    <div class="hr-top"></div>
-                                    <div class="hr-custom-2"></div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                `
-            } else {
-                return ''
-            }
-        }
-
-
-        document.getElementById("grid1").innerHTML = `
-        ${menuData.map(menuTemplate1).join('')}
-        `
-        document.getElementById("grid2").innerHTML = `
-        ${menuData.map(menuTemplate2).join('')}
-        `
-    </script>
-<!--
-<script>
-    $('.grid').isotope({
-        layoutMode: 'fitColumns',
-        resize: false,
-        itemSelector: '.grid-item',
-        getSortData: {
-        order: '[data-order] parseInt'
+    }
+],
+"salaty": [
+    {
+        "kategoria": "Šaláty",
+        "title": "MIEŠANÝ ",
+        "popis": "ľadový šalát, paradajka, č. paprika, uhorka, kukurica",
+        "alergen": "",
+        "poradie": 60,
+        "cena": "6.5",
+        "euro": "6,50 €"
     },
-    // sort by color then number
-    sortBy: [ 'order' ]
-    });
-
-
-</script>
--->
-
-
-</body>
-
-</html>
+    {
+        "kategoria": "Šaláty",
+        "title": "TUNA ",
+        "popis": "ľadový šalát, paradajka, č. paprika, uhorka, tuniak, č. olivy, syr - 4,7",
+        "alergen": "4,7",
+        "poradie": 61,
+        "cena": "6.9",
+        "euro": "6,90 €"
+    },
+    {
+        "kategoria": "Šaláty",
+        "title": "GRÉCKY ",
+        "popis": "ľadový šalát, paradajka, č. paprika, uhorka, č. olivy, balkánsky syr - 7",
+        "alergen": "7",
+        "poradie": 62,
+        "cena": "6.9",
+        "euro": "6,90 €"
+    },
+    {
+        "kategoria": "Šaláty",
+        "title": "DE LUXE ",
+        "popis": "ľadový šalát, paradajka, č. paprika, uhorka, prosciutto crudo, volské oko - 3",
+        "alergen": "3",
+        "poradie": 63,
+        "cena": "7.2",
+        "euro": "7,20 €"
+    },
+    {
+        "kategoria": "Šaláty",
+        "title": "GRANDIOSA ",
+        "popis": "ľadový šalát, paradajka, č. paprika, uhorka, prosciutto crudo, mozzarella - 7",
+        "alergen": "7",
+        "poradie": 64,
+        "cena": "7.2",
+        "euro": "7,20 €"
+    }
+],
+"stangle": [
+    {
+        "kategoria": "Pizza štangle",
+        "title": "PIZZA ŠTANGLE",
+        "popis": "1",
+        "alergen": "1",
+        "poradie": 90,
+        "cena": "3.9",
+        "euro": "3,90 €"
+    },
+    {
+        "kategoria": "Pizza štangle",
+        "title": "PIZZA ŠTANGLE so syrom eidam",
+        "popis": "1,7",
+        "alergen": "1,7",
+        "poradie": 91,
+        "cena": "4.5",
+        "euro": "4,50 €"
+    },
+    {
+        "kategoria": "Pizza štangle",
+        "title": "PIZZA ŠTANGLE so syrom niva",
+        "popis": "1,7",
+        "alergen": "1,7",
+        "poradie": 92,
+        "cena": "4.9",
+        "euro": "4,90 €"
+    },
+    {
+        "kategoria": "Dressing",
+        "title": "Tatárska omáčka 30g",
+        "popis": "1,7",
+        "alergen": "1,7",
+        "poradie": 93,
+        "cena": "1.5",
+        "euro": "1,50 €"
+    },
+    {
+        "kategoria": "Dressing",
+        "title": "Kečup 30g",
+        "popis": "",
+        "alergen": "",
+        "poradie": 94,
+        "cena": "1.5",
+        "euro": "1,50 €"
+    },
+    {
+        "kategoria": "Dressing",
+        "title": "Cesnakový dressing 70g",
+        "popis": "",
+        "alergen": "",
+        "poradie": 95,
+        "cena": "1.5",
+        "euro": "1,50 €"
+    }
+],
+"polievka":[
+    { "kategoria": "Polievky", "title": "PARADAJKOVÁ POLIEVKA so syrom", "popis": "0,3l - 7", "alergen": "7", "poradie": "", "cena": "2.5", "euro": "2,50 €" }
+],
+"nealko": [
+    {
+        "kategoria": "Nealkoholický nápoj",
+        "title": "Nápoj v plech. ",
+        "popis": "0,33l Coca cola, Fanta, Sprite",
+        "alergen": "",
+        "poradie": 70,
+        "cena": "1.2",
+        "euro": "1,20 €"
+    },
+    {
+        "kategoria": "Nealkoholický nápoj",
+        "title": "Minerálna voda fl.",
+        "popis": "0,5l",
+        "alergen": "",
+        "poradie": 71,
+        "cena": "1.2",
+        "euro": "1,20 €"
+    },
+    {
+        "kategoria": "Nealkoholický nápoj",
+        "title": "Cappy džús fl.",
+        "popis": "0,33l podľa ponuky",
+        "alergen": "",
+        "poradie": 72,
+        "cena": "1.5",
+        "euro": "1,50 €"
+    },
+    {
+        "kategoria": "Nealkoholický nápoj",
+        "title": "Rauch ľadový čaj v plech.",
+        "popis": "0,355l podľa ponuky ",
+        "alergen": "",
+        "poradie": 73,
+        "cena": "1.2",
+        "euro": "1,20 €"
+    },
+    {
+        "kategoria": "Nealkoholický nápoj",
+        "title": "Kofola fl.",
+        "popis": " 2l",
+        "alergen": "",
+        "poradie": 74,
+        "cena": "2.5",
+        "euro": "2,50 €"
+    }
+],
+"alko": [
+    {
+        "kategoria": "Alkoholický nápoj",
+        "title": "Zlatý Bažant 10°",
+        "popis": " plech. 0,5l",
+        "alergen": "",
+        "poradie": 75,
+        "cena": "1.4",
+        "euro": "1,40 €"
+    },
+    {
+        "kategoria": "Alkoholický nápoj",
+        "title": "Zlatý Bažant 12°",
+        "popis": " plech. 0,5l",
+        "alergen": "",
+        "poradie": 76,
+        "cena": "1.5",
+        "euro": "1,50 €"
+    },
+    {
+        "kategoria": "Alkoholický nápoj",
+        "title": "Pilsner Urquell 12°",
+        "popis": " plech. 0,5l",
+        "alergen": "",
+        "poradie": 77,
+        "cena": "1.8",
+        "euro": "1,80 €"
+    },
+    {
+        "kategoria": "Alkoholický nápoj",
+        "title": "Birell nealko",
+        "popis": " plech. 0,5l",
+        "alergen": "",
+        "poradie": 78,
+        "cena": "1.5",
+        "euro": "1,50 €"
+    },
+    {
+        "kategoria": "Alkoholický nápoj",
+        "title": "Zlatý Bažant Radler nealko",
+        "popis": " plech. 0,5l",
+        "alergen": "",
+        "poradie": 79,
+        "cena": "1.5",
+        "euro": "1,50 €"
+    }
+],
+"vino": [
+    {
+        "kategoria": "Víno",
+        "title": "Muller Thurgau fl.",
+        "popis": "1l",
+        "alergen": "",
+        "poradie": 80,
+        "cena": "8",
+        "euro": "8,00 €"
+    },
+    {
+        "kategoria": "Víno",
+        "title": "Frankovka modrá fl.",
+        "popis": "1l",
+        "alergen": "",
+        "poradie": 81,
+        "cena": "9",
+        "euro": "9,00 €"
+    },
+    {
+        "kategoria": "Víno",
+        "title": "Tramín červený fl.",
+        "popis": "0,75l",
+        "alergen": "",
+        "poradie": 82,
+        "cena": "12.5",
+        "euro": "12,50 €"
+    },
+    {
+        "kategoria": "Víno",
+        "title": "Pinot Gris",
+        "popis": "0,75l",
+        "alergen": "",
+        "poradie": 83,
+        "cena": "12.5",
+        "euro": "12,50 €"
+    },
+    {
+        "kategoria": "Víno",
+        "title": "Cabernet Savignon fl.",
+        "popis": "0,75l",
+        "alergen": "",
+        "poradie": 84,
+        "cena": "12.5",
+        "euro": "12,50 €"
+    },
+    {
+        "kategoria": "Víno",
+        "title": "Hubert de Luxe fl.",
+        "popis": "0,75l",
+        "alergen": "",
+        "poradie": 85,
+        "cena": "9.5",
+        "euro": "9,50 €"
+    }
+]}
