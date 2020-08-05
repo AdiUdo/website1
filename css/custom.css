@@ -1,0 +1,60 @@
+:root {
+    --dark-col: #8B0000;
+    --light-col: #FCF9DB;
+    --active-col: #407C51;
+    --hoover-col: #BA3030;
+    --dark-text: #000000;
+    --light-text: #FCF9DB;
+}
+
+body {
+background-image: url("../img/bg-img.jpg");
+background-color:rgba(252, 249, 219, 1);
+padding-top: 80px;
+}
+
+h1 {
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.product-menu-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+.img-fluid {
+    max-width: 25%;
+}
+
+.nav-link {
+    background-color: var(--dark-col);
+    color: var(--light-text);
+    
+}
+
+.nav-pills .nav-link {
+    border-radius: initial;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+      background-color: var(--active-col);
+  }
+
+a:hover {
+    background-color: var(--hoover-col);
+    color: var(--light-text);
+}
+
+.rounded-left {
+    border-top-left-radius: 1.5rem!important;
+    border-bottom-left-radius: 1.5rem!important;
+}
+
+.rounded-right {
+    border-top-right-radius: 1.5rem!important;
+    border-bottom-right-radius: 1.5rem!important;
+}
