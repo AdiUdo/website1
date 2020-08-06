@@ -1,0 +1,94 @@
+/* ---- grid ---- */
+
+#grid1 {
+    height: 100%;
+  }
+
+#grid2 {
+    height: 1305px;
+}
+
+/*.second-grid {
+    border: 1px solid red;
+    width: 960px;
+    height: 1000px;
+}
+  
+  /* clear fix 
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  /* ---- .element-item ---- */
+  
+  .grid-item {
+    position: relative;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .grid-item {
+    width: 100%;
+    height: 110px;
+  }
+
+  .second-grid-item {
+    width: 45%;
+    height: 75px;
+  }
+  
+  
+  /*-- Product items --*/
+
+  .hr {
+      height: 8px;
+  }
+
+  .hr-custom {
+    width: 100%;
+    height: 8px;
+    background-image: linear-gradient(45deg, transparent 8px, rgba(139, 0, 0, 0.49) 8px), linear-gradient(-45deg, transparent 8px, rgba(139, 0, 0, 0.49) 8px);
+    background-size: 8px 8px;
+    background-repeat: repeat-x;
+    background-position: 50% 50%;
+  }
+
+  .hr-top {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(139, 0, 0, 0.49);
+  }
+
+
+  .product-menu-ingredience {
+    font-size: 1rem;
+  }
+
+.hr-custom-2 {
+  box-sizing: border-box;
+  border-top: 4px dotted rgba(186, 48, 48, 0.46);
+}
+
+
+@media screen and (min-width: 768px) {
+  #grid1 {
+    height: 1540px;
+  }
+  .grid-item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 540px) {
+.second-grid-item {
+  width: 30%;
+  }
+  #grid2 {
+    height: 925px;
+  }
+}

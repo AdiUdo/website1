@@ -5,27 +5,23 @@
 
     <title>Pizza Viktoria</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/grid.css">
     <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!--Lightbox Galeria-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
-
-
-
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
 </head>
 
 <body>
-
     <header class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <span class="navbar-brand">PO-NE 11:00 - 22:00 </br>Príjem objednávok do 21:30</span>
-            <span class="navbar-text">0948 166 900</br> 0917 788 571</span>
+        <div class="container-sm">
+            <span class="navbar-brand h3 text-light">PO-NE 11:00 - 22:00 </br>Príjem objednávok do 21:30</span>
+            <span class="navbar-text h3 text-light">0948 166 900</br> 0917 788 571</span>
         </div>
     </header>
-    <div class="container-lg bg-light">
+    <div class="container-sm bg-light">
         <div class="row justify-content-center">
             <img src="img/Logo.webp" class="rounded mx-auto d-block" alt="...">
         </div>
@@ -33,19 +29,19 @@
             <div class="row justify-content-center">
                 <ul class="nav justify-content-center nav-pills">
                     <li class="nav-item">
-                        <a class="nav-link active rounded-left" href="#">Pizza</a>
+                        <a class=" h3 nav-link active rounded-left" href="#">Pizza</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rounded-0" href="#">Pizza štangle a dressingy</a>
+                        <a class=" h3 nav-link rounded-0" href="#">Pizza štangle a dressingy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rounded-0" href="#">Polievka</a>
+                        <a class=" h3 nav-link rounded-0" href="#">Polievka</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rounded-0" href="#">Šaláty</a>
+                        <a class=" h3 nav-link rounded-0" href="#">Šaláty</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rounded-right" href="#">Nápoje</a>
+                        <a class=" h3 nav-link rounded-right" href="#">Nápoje</a>
                     </li>
                 </ul>
             </div>
@@ -64,19 +60,25 @@
             <h1 class="text-center text-dark text-uppercase">Pizza</h1>
         </div>
         <div class="row justify-content-center">
-            <p>( všetky pizze sú potreté cesnakom, priemer cca 32cm, hmotnosť od 450g )</p>
+            <p class="text-center">( všetky pizze sú potreté cesnakom, priemer cca 32cm, hmotnosť od 450g )</p>
         </div>
-        <menu>
-            <div id="grid1" class="d-flex flex-column flex-wrap">
-                <!--parsovane data pizza-->
-                
-            </div>
-        </menu>
+        <div id="grid1" class="d-flex flex-md-column flex-wrap  p-5 align-content-around">
+                <!--parsovane data pizza--> 
+        </div>
+        <div class="row justify-content-center pt-5">
+            <h1 class="text-center text-dark text-uppercase">Prílohy na pizzu</h1>
+        </div>
+        <div class="row justify-content-center">
+            <p>(všetky prílohy v jednotnej cene 1,50 €)</p>
+        </div>
+        <div id="grid2" class="d-flex flex-column flex-wrap p-5 align-content-around">
+                <!--parsovane data prilohy-->
+        </div>
         <article class="row justify-content-center">
             <p>Zoznam alergénov : 1 - obilniny, 3 - vajcia, 4 - ryby, 7 - mlieko a mliečne výrobky</p>
         </article>
         <footer>
-            <div class="row bg-dark text-white">
+            <div class="row bg-dark text-white p-5">
                 <div class="col-sm">
                     <address>
                         PREVÁDZKA:<br>
@@ -144,9 +146,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.1/anchor.min.js"></script>
-    <!--Isotope -->
-    <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-    <script src="https://npmcdn.com/isotope-fit-columns@1/fit-columns.js"></script>
 
     <script type="text/javascript">
         $(document).on('click', '[data-toggle="lightbox"]', function (event) {
@@ -379,8 +378,8 @@
         "popis": "",
         "alergen": "",
         "poradie": 29,
-        "cena": "1.5",
-        "euro": " 1,50 €"
+        "cena": "",
+        "euro": ""
     },
     {
         "kategoria": "prilohy",
@@ -654,9 +653,7 @@
     }];
 
         function menuTemplate1(menuitem) {
-            console.log(menuitem);
             let menutype = menuitem.kategoria;
-            console.log(menutype);
             if (menutype == 'Pizza') {
                 return `
                     <div class="grid-item" data-order="${menuitem.poradie}">
@@ -691,7 +688,7 @@
                             <div class="product-menu text-body">
                                 <div class="product-menu-top">
                                     <div class="product-menu-title">
-                                        <h3 class="text-lowercase">${menuitem.title}</h3>
+                                        <h3 class="h6 text-lowercase">${menuitem.title}</h3>
                                     </div>
                                     <div class="product-menu-price">
                                         <p>${menuitem.euro}</p>
