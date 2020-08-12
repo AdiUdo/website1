@@ -66,15 +66,30 @@
                     </button>
                 </div>
                 <div class="collapse navbar-lg-collapse" id="navbarTogglerDemo02">
-                    <a class=" h3 nav-link active rounded-left" href="#">Pizza</a>
-                    <a class=" h3 nav-link rounded-0" href="#">Pizza štangle a dressingy</a>
-                    <a class=" h3 nav-link rounded-0" href="#">Polievka</a>
-                    <a class=" h3 nav-link rounded-0" href="#">Šaláty</a>
-                    <a class=" h3 nav-link rounded-right" href="#">Nápoje</a>
+                    <a class=" h2 nav-link active rounded-left" href="#">Pizza</a>
+                    <a class=" h2 nav-link rounded-0" href="#">Pizza štangle a dressingy</a>
+                    <a class=" h2 nav-link rounded-0" href="#">Polievka</a>
+                    <a class=" h2 nav-link rounded-0" href="#">Šaláty</a>
+                    <a class=" h2 nav-link rounded-right" href="#">Nápoje</a>
                 </div>
             </div>
         </div>
     </header>
+    <div id="btn-akcia" class="row fixed-top">
+    <button type="button" class="btn btn-primary" onclick="$('.alert').show()">AKCIA !!</button>
+    </div>
+    <div id="akcia" class="alert alert-dark alert-dismissible fade show fixed-top col-lg-8 mx-auto text-center" role="alert">
+        <h4 class="alert-heading">!!! AKCIA !!!</h4>
+        <button type="button" class="close" data-hide="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        <p>Objednaj si u nás v čase od 11:00 do 15:00 a získaj 0,33 l nápoj úplne z a d a r m o !!!</p>
+        <hr>
+        <p class="mb-0">1x pizza = 0,33 l nápoj zadarmo<br>
+            1x šalát = 0,33 l nápoj zadarmo<br>
+            1x polievka + 1x pizza štangle = 0,33 l nápoj zadarmo
+        </p>
+      </div>
     <div class="container-sm bg-light ">
         <div class="row justify-content-center d-none d-lg-block">
             <img src="img/logo.svg" width="190" class="rounded mx-auto d-block" alt="...">
@@ -697,7 +712,7 @@
             },
             {
                 "kategoria": "prilohy",
-                "title": "sardinky 60g",
+                "title": "sardely 20g",
                 "popis": "",
                 "alergen": "",
                 "poradie": 51,
@@ -706,10 +721,19 @@
             },
             {
                 "kategoria": "prilohy",
-                "title": "slanina 60g",
+                "title": "sardinky 60g",
                 "popis": "",
                 "alergen": "",
                 "poradie": 52,
+                "cena": "",
+                "euro": ""
+            },
+            {
+                "kategoria": "prilohy",
+                "title": "slanina 60g",
+                "popis": "",
+                "alergen": "",
+                "poradie": 53,
                 "cena": "",
                 "euro": ""
             },
@@ -869,6 +893,16 @@
         ${galleryData.map(menuTemplate3).join('')}
         `
     </script>
+
+<script>
+    $(function () {
+        $("[data-hide]").on("click", function () {
+            $("." + $(this).attr("data-hide")).hide();
+            
+        });
+        
+    });
+</script>
 
 
 </body>
