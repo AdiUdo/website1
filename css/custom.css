@@ -64,3 +64,34 @@ a:hover {
     background-color: white;
     color: #8B0000;
   }
+
+  #akcia {
+      z-index: 1000;
+      margin-top: 80px;
+      background-color: #8B0000;
+      color: #FCF9DB;
+      border-color: #8B0000;
+      border-radius: 0 0 30px 30px;
+      box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.6);
+  }
+
+  #btn-akcia {
+      z-index: 900;
+      margin-top: 80px;
+      margin-left: 75%;
+  }
+
+button.btn.btn-primary {
+    border-radius: 0 0 10px 10px;
+}
+
+  .alert-dismissible .close {
+    color: white;
+  }
+
+  .navbar {
+    background-color: rgba(139, 0, 0, 1);
+    border-top: 0px solid rgba(0, 0, 0, 1);
+    border-bottom: 0px solid rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5)
+  }
