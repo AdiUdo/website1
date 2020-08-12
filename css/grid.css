@@ -5,7 +5,7 @@
   }
 
 #grid2 {
-    height: 1305px;
+    height: 1240px;
 }
 
 /*.second-grid {
@@ -88,7 +88,7 @@ img.ft-gallery {
 
 @media screen and (min-width: 768px) {
   #grid1 {
-    height: 1540px;
+    height: 1480px;
   }
   .grid-item {
     width: 50%;
@@ -100,7 +100,7 @@ img.ft-gallery {
   width: 30%;
   }
   #grid2 {
-    height: 925px;
+    height: 835px;
   }
 }
  @media screen and (max-width: 540px) {
