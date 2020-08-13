@@ -65,7 +65,7 @@ a:hover {
     color: #8B0000;
   }
 
-  #akcia {
+#akcia {
       z-index: 1000;
       margin-top: 80px;
       background-color: #8B0000;
@@ -75,11 +75,22 @@ a:hover {
       box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.6);
   }
 
-  #btn-akcia {
+
+@keyframes akciamove {
+    from {margin-left: 65%;}
+    to {margin-left: 66%;}
+}
+
+#btn-akcia {
       z-index: 900;
       margin-top: 80px;
-      margin-left: 75%;
+      margin-left: 65%;
+      animation-name: akciamove;
+      animation-duration: 0.5s;
+      animation-direction: alternate;
+      animation-iteration-count: 6;
   }
+
 
 button.btn.btn-primary {
     border-radius: 0 0 10px 10px;

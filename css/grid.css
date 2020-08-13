@@ -107,4 +107,18 @@ img.ft-gallery {
   .navbar-txt {
     font-size: 15px;
   }
+
+  @keyframes akciamove {
+    from {margin-left: 50%;}
+    to {margin-left: 52%;}
+}
+
+#btn-akcia {
+    margin-top: 88px;  
+    margin-left: 50%;
+    animation-name: akciamove;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+  }
  }
