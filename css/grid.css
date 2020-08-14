@@ -86,6 +86,27 @@ img.ft-gallery {
   width: 150px;
 }
 
+@keyframes akciamove {
+  from {margin-left: 55%;}
+  to {margin-left: 57%;}
+}
+
+#btn-akcia {
+  z-index: 900;
+  margin-top: 80px;  
+  margin-left: 55%;
+  animation-name: akciamove;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: 6;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-txt {
+    font-size: 15px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #grid1 {
     height: 1480px;
@@ -103,22 +124,31 @@ img.ft-gallery {
     height: 835px;
   }
 }
- @media screen and (max-width: 540px) {
-  .navbar-txt {
-    font-size: 15px;
-  }
 
+@media screen and (max-width: 540px) {
+  #adresa #ft-gallery {
+    margin-top: 1.5rem !important;
+  }
+  #ft-gallery {
+    margin-top: 1.5rem !important;
+  }
   @keyframes akciamove {
-    from {margin-left: 50%;}
-    to {margin-left: 52%;}
+    from {margin-left: 44%;}
+    to {margin-left: 46%;}
 }
 
 #btn-akcia {
-    margin-top: 88px;  
-    margin-left: 50%;
-    animation-name: akciamove;
-    animation-duration: 0.5s;
-    animation-direction: alternate;
-    animation-iteration-count: 6;
+      margin-top: 88px;
+      margin-left: 44%;
+      animation-name: akciamove;
+      animation-duration: 0.5s;
+      animation-direction: alternate;
+      animation-iteration-count: 6;
   }
- }
+}
+
+@media screen and (max-width: 1000px) {
+  img.ft-gallery {
+    width: 120px;
+  }
+}
