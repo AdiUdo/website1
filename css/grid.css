@@ -53,8 +53,11 @@
     width: 45%;
     height: 75px;
   }
-  
-  
+ 
+  .grid-item-napoj {
+    height: 60px;
+    padding: 10px 10px;
+}
   /*-- Product items --*/
 
   .hr {
