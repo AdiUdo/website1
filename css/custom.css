@@ -31,7 +31,6 @@ h1 {
 .nav-link {
     background-color: var(--dark-col);
     color: var(--light-text);
-    
 }
 
 .nav-pills .nav-link {
@@ -39,8 +38,8 @@ h1 {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-      background-color: var(--active-col);
-  }
+    background-color: var(--active-col);
+}
 
 a:hover {
     background-color: var(--hoover-col);
@@ -61,7 +60,7 @@ a:hover {
     position: initial;
     background-color: white;
     color: #8B0000;
-  }
+}
 
 #akcia {
       z-index: 1000;
@@ -95,4 +94,8 @@ button.btn.btn-primary {
   a[href^=tel] {
     text-decoration:inherit;
     color: inherit;
+    }
+
+    a.h2.nav-link.active{
+        background-color: var(--active-col);
     }

@@ -16,6 +16,10 @@
   height: 210px;
 }
 
+#gridSalaty {
+  height: 440px;
+}
+
 /*.second-grid {
     border: 1px solid red;
     width: 960px;
@@ -136,6 +140,9 @@ img.ft-gallery {
 @media screen and (max-width: 540px) {
   #gridStangle {
     height: 680px;
+  }
+  #gridSalaty {
+    height: 570px;
   }
   #adresa #ft-gallery {
     margin-top: 1.5rem !important;
