@@ -1,4 +1,4 @@
-/* ---- grid ---- */
+/* ---- max vyska bloku s polozkami menu ---- */
 
 #grid1 {
     height: 100%;
@@ -6,6 +6,10 @@
 
 #grid2 {
     height: 1240px;
+}
+
+#gridStangle {
+  height: 440px;
 }
 
 /*.second-grid {
@@ -101,7 +105,7 @@ img.ft-gallery {
   animation-iteration-count: 6;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1115px) {
   .navbar-txt {
     font-size: 15px;
   }
@@ -126,6 +130,9 @@ img.ft-gallery {
 }
 
 @media screen and (max-width: 540px) {
+  #gridStangle {
+    height: 680px;
+  }
   #adresa #ft-gallery {
     margin-top: 1.5rem !important;
   }
