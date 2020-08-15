@@ -819,12 +819,12 @@
                 return `
                     <div class="grid-item" data-order="${menuitem.poradie}">
                             <div class="product-menu text-body">
-                                <div class="product-menu-top">
+                                <div class="d-flex product-menu-top align-items-start">
                                     <div class="product-menu-title">
                                         <h3 class="text-uppercase">${menuitem.poradie}&nbsp;${menuitem.title}</h3>
                                     </div>
                                     <div class="product-menu-price">
-                                        <h3>${menuitem.euro}</h3>
+                                        <h3>${menuitem.cena}</h3>
                                     </div>
                                 </div>
                                 <p class="product-menu-ingredience">${menuitem.popis}</p>
@@ -847,12 +847,12 @@
                 return `
                     <div class="second-grid-item" data-order="${menuitem.poradie}">
                             <div class="product-menu text-body">
-                                <div class="product-menu-top">
+                                <div class="d-flex product-menu-top align-items-start">
                                     <div class="product-menu-title">
                                         <h3 class="h6 text-lowercase">${menuitem.title}</h3>
                                     </div>
                                     <div class="product-menu-price">
-                                        <p>${menuitem.euro}</p>
+                                        <p>${menuitem.cena}€</p>
                                     </div>
                                 </div>
                                 <div class="hr-dot">
