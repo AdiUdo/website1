@@ -24,7 +24,9 @@ h1 {
     align-items: flex-end;
 }
 
-
+.product-menu.text-body {
+    line-height: 1rem;
+}
 
 .img-fluid {
     max-width: 25%;
@@ -33,7 +35,6 @@ h1 {
 .nav-link {
     background-color: var(--dark-col);
     color: var(--light-text);
-    
 }
 
 .nav-pills .nav-link {
@@ -41,8 +42,8 @@ h1 {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-      background-color: var(--active-col);
-  }
+    background-color: var(--active-col);
+}
 
 a:hover {
     background-color: var(--hoover-col);
@@ -63,7 +64,7 @@ a:hover {
     position: initial;
     background-color: white;
     color: #8B0000;
-  }
+}
 
 #akcia {
       z-index: 1000;
@@ -75,23 +76,6 @@ a:hover {
       box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.6);
   }
 
-
-@keyframes akciamove {
-    from {margin-left: 65%;}
-    to {margin-left: 66%;}
-}
-
-#btn-akcia {
-      z-index: 900;
-      margin-top: 80px;
-      margin-left: 65%;
-      animation-name: akciamove;
-      animation-duration: 0.5s;
-      animation-direction: alternate;
-      animation-iteration-count: 6;
-  }
-
-
 button.btn.btn-primary {
     border-radius: 0 0 10px 10px;
 }
@@ -100,13 +84,32 @@ button.btn.btn-primary {
     color: white;
   }
 
-  .navbar {
+.navbar {
     background-color: rgba(139, 0, 0, 1);
     border-top: 0px solid rgba(0, 0, 0, 1);
     border-bottom: 0px solid rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5)
-  }
+}
 
-  .h6 {
-      line-height: 1.8;
-  }
+.h6 {
+line-height: 1.8;
+}
+
+a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+    }
+a.h2.nav-link.active{
+        background-color: var(--active-col);
+    }
+/*.text-poradie {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.product-menu-price {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}*/
