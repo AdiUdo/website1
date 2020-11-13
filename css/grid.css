@@ -83,6 +83,12 @@
   #ft-gallery {
     margin-top: 1.5rem !important;
   }
+  .nav {
+    padding-top: 80px;
+  }
+  .navbar-txt {
+    font-size: 12px;
+  } 
 }
 
 @media screen and (max-width: 1000px) {
