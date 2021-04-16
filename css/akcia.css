@@ -34,3 +34,7 @@ button.btn.btn-primary {
     animation-direction: alternate;
     animation-iteration-count: 6;
 }
+
+div#akcia {
+  top:80px;  
+}
